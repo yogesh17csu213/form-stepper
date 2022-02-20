@@ -10,11 +10,11 @@ const Layout=(props)=>{
     const navigate=useNavigate()
 
     useEffect(()=>{
-       let index= STEPPER_LIST.find((obj,index)=>{
+         STEPPER_LIST.find((obj,index)=>{
               if(window.location.pathname===obj.route){
                   setCurrentStep(index)
-                  return index
               }
+              return null
           })
     },[])
 
