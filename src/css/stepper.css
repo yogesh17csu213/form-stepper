@@ -1,0 +1,108 @@
+.TabCard {
+    padding: 50px 6px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+  .tab_box {
+    position: relative;
+    padding: 5px 0px;
+    width: 135px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    left: 0px;
+  }
+  .tab_step {
+    background-color: #fff;
+    color: #6d778d;
+    display: block;
+    z-index: 10;
+    text-align: center;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    line-height: 45px;
+    border: 3px solid #F3F3F3;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    transition:  all 0.3s ease-in-out;
+  }
+  .tab_step_active {
+    background-color: #fff!important;
+    border-color: #664de5!important;
+    color: #664de5!important;
+    transition:  all 0.3s ease-in-out;
+  }
+  .tab_para {
+    margin-bottom: 0px;
+  }
+  .tab_line_right {
+    content: "";
+    width: 36%;
+    background-color: #F3F3F3;
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 46%;
+    right: -7px;
+    transition:  all 0.3s ease-in-out;
+  }
+  .tab_line_left {
+    content: "";
+    width: 36%;
+    background-color: #F3F3F3;
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 46%;
+    left: -6px;
+    transition:  all 0.3s ease-in-out;
+  }
+  .tab_line_active {
+    background-color: #664de5!important;
+    transition:  all 0.3s ease-in-out;
+  }
+  
+  /* Tab Card Content */
+  .TabCardContent {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+  
+  .cms_wrap {
+    padding: 25px;
+    background-color: #edeef2;
+    min-height: 533px;
+  }
+  
+  .stepper_horizontal{
+    display:flex;
+    overflow: auto;
+    background: #fff;
+    justify-content: center;
+  }
+  .completed{
+    background-color:#664de5;
+    border-color: #664de5!important;
+    color: #fff!important;
+  }
+
+
+  @media screen and (max-width: 1000px) and (min-width: 360px) {
+    .tab_box{
+      width: 75px;
+    }
+    .tab_line_left, .tab_line_right{
+      width: 29%;
+    }
+    
+    .tab_step{
+      width: 40px;
+      height: 40px;
+      line-height: 37px;
+    }
+  
+  }

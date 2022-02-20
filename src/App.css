@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.App {
+  /* text-align: center; */
+  font-family: 'Inter', sans-serif;
+}
+h1,h4{
+    text-align: center;
+}
+h1{
+  font-weight: 800!important;
+}
+
+h4{
+  font-weight: 550!important;
+  font-size: 1.1rem!important;
+  color: #6d778d;
+  margin-top: 10px!important;
+}
+
+h6{
+  font-weight: 600!important;
+  font-size: .9rem!important;
+}
+
+p{
+  font-weight: 570!important;
+  font-size: .8rem!important;
+  color: #6d778d;
+}
+
+.content_container{
+  padding: 20px;
+}
+
+.form_box form{
+  padding-top: 30px;
+}
+.form_box form label{
+  font-size: 13px!important;
+  font-weight: 600!important;
+}
+
+
+.form_input{
+  font-size: 12px!important;
+  line-height: 2.5!important;
+}
+
+.submit_button{
+  background-color: #664de5;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 7px 20px;
+  border: 1px solid #664de5;
+  width: 100%;
+}
+
+.card_box{
+  margin-bottom: 30px;
+}
+
+.card{
+  padding: 20px;
+  border: 1px solid;
+}
+.card:hover{
+  border: 1px solid #664de5;
+}
+
+.card span svg{
+  margin-bottom: 10px;
+  font-size: 16px;
+
+}
+.card:hover span svg{
+  color:#664de5;
+  
+}
+
+.circle_tick_card{
+    position: relative;
+    padding: 5px 0px;
+    width: 135px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    left: 45%;
+}
+
+.circle_tick_card span{
+    background-color: #664de5;
+    border-color: #664de5;
+    color: #fff;
+    display: block;
+    z-index: 10;
+    text-align: center;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    line-height: 76px;
+    border: 3px solid #F3F3F3;
+    font-size: 2rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.headings_container{
+  margin: 35px 6px 35px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 360px) {
+  .circle_tick_card{
+    left:28%
+  }
+}
